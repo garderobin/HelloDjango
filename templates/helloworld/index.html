@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>helloworld</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'helloworld/style.css' %}" />
 </head>
 <body>
 {% if latest_question_list %}
